@@ -71,3 +71,10 @@ printPrime(97);
 //We'd also have to breakdown which move wins against which other move. 
 //then we can test out some code. 
 
+//Section 6
+//1. Boolean
+//2. object or string
+//3. array
+//4. array
+//5. object with array
+//6. object with array
