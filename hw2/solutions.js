@@ -91,3 +91,7 @@ const me ={
   'favorite datatype': "objects"
 }
 console.log(me.hobby);
+
+//Section 8
+1. console.log(crazyObject.taco[salsa[5]])
+//Couldn't finish this section but will finish this weekend. 
