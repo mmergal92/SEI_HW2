@@ -93,5 +93,6 @@ const me ={
 console.log(me.hobby);
 
 //Section 8
-1. console.log(crazyObject.taco[salsa[5]])
+console.log(crazyObject.taco[1].salsa[5])
+console.log(crazyObject.larry.quotes[0])
 //Couldn't finish this section but will finish this weekend. 
