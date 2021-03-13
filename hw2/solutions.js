@@ -60,4 +60,14 @@ function printPrime(num) {
 printPrime(97);
 // I don't think is is running well because the prime function is not working well. 
 
+//Section 5: Rock Paper Scissors
+//pseudo code (I did not have time to do this section)
+//the randomMove function would have an array that defines the variables (rock, paper, and scissors)
+//I would then create a constant:
+// const choices = [paper, scissorys, rock]
+//I would then create a randomIndex that would have a math.floor (math.random() *choices.length)
+//this would allow the choice to be returned at random.
+//the rockPaperScissors function would accept a user move and a computer move (we'd have to define both variables and allow those options to be chosen at random.
+//We'd also have to breakdown which move wins against which other move. 
+//then we can test out some code. 
 
