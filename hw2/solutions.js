@@ -30,3 +30,34 @@ function sumArray([]){
 sumArray([3,4])
 //this function is not fully working. I'm not sure what's missing.
 
+//Section 4: prime factor function
+
+function prime(num){
+  for (i = 2; i <=math.sqrt(num); i++){
+  if (let num % i === 0){
+    //This is saying that "num" is an unexpected identifier.
+    return false;
+  }else {
+    console.log("prime")
+    return true;
+  }
+  }
+}
+prime(64)
+//I'm also not sure what's missing here.
+//print prime factors
+function printPrime(num) {
+  let primeNumbers = [];
+  let count = 0;
+  for (i = 2; i <= num; i++) {
+      if (prime(i)) {
+        primeNumbers.push(i);
+        count += 1;
+      }
+  }
+  console.log(primeNumbers);
+}
+printPrime(97);
+// I don't think is is running well because the prime function is not working well. 
+
+
