@@ -78,3 +78,16 @@ printPrime(97);
 //4. array
 //5. object with array
 //6. object with array
+
+//Section 7
+let colorsArray = [ "Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]
+console.log(colorsArray [4])
+
+const me ={
+  name: "Maria",
+  'favorite food': "sushi",
+  town: "NYC",
+  hobby: "art",
+  'favorite datatype': "objects"
+}
+console.log(me.hobby);
